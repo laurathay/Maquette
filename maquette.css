@@ -1,5 +1,9 @@
+*{
+	box-sizing: border-box;
+}
+
 .tout{
-	margin: 100px 100px 100px 100px;
+	margin: 100px 100px 100px 100px;	
 }
 
 
@@ -109,6 +113,10 @@ iframe{ /*je ne comprends pas pourquoi celui ci ne marche plus*/
 
 }
 
+.contactus{
+	display: flex;
+}
+
 .part1{
 	box-sizing: border-box;
 }
@@ -116,7 +124,7 @@ iframe{ /*je ne comprends pas pourquoi celui ci ne marche plus*/
 .part2{
 	margin: 20px 20px 20px 20px;
 	padding: 20px 20px 20px 20px;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 .contactus .part1, .part2{
